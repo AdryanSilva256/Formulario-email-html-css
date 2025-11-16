@@ -1,11 +1,30 @@
 body {
             background-color: black;
+            display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            display: flex;
-            text-align: center;            
+            text-align: center;
+            height: 100vh;          
         }
         h2 {
             color: white;
             font-family: 'Courier New', Courier, monospace;
         }
+.voltar {
+    display: inline-block;
+    margin-top: -100px;
+    padding: 12px 20px;
+    background-color: #0072c4;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.voltar:hover {
+    background-color: #63b3ec;
+    transform: scale(1.05);
+}
