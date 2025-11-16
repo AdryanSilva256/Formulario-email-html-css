@@ -22,6 +22,7 @@ h2 {
     margin-bottom: 2rem;
     text-align: center;
     line-height: 1.2;
+
 }
 
 h1::before {
@@ -94,6 +95,6 @@ h2::before {
 .form button:hover,
 .form button:focus {
     outline: none;
-    background: #09d;
+    background: rgb(86, 179, 219);
+    transform: scale(1.05);
 }
-
