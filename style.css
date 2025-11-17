@@ -32,8 +32,29 @@ h1::before {
 }
 
 h2::before {
-  content: "🐅";
+  content: "📩";
   display: block;
+}
+
+.botao {
+  color: white;
+  background-color: #0072c4;
+  display: inline-block;
+  padding: 12px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.botao:hover {
+  background-color: #c11d1d;
+  transform: scale(1.05);
+}
+
+.enviar:hover {
+  transform: scale(1.05);
 }
 
 .form {
